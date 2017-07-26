@@ -1,0 +1,77 @@
+.dmly-container *{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.dmly-settings{
+	float: left;
+	padding-right: 2em;
+	width: 60%;
+}
+.dmly-branding-container{
+	background-color: #fff;
+	border: 1px solid #e7674a;
+	box-shadow: 0 0 2px rgba(0,0,0,.2);
+	float: left;
+	padding: 2em 1em;
+	width: 40%;
+}
+
+.dmly-branding-container label{
+	display: block;
+}
+
+.dmly-branding-container input[type="text"],
+.dmly-branding-container input[type="password"],
+.dmly-branding-container input[type="email"]{
+	margin-bottom: 4px;
+	padding: 5px 8px;
+}
+
+.dmly-rating-categories-list{
+	list-style: disc;
+	padding-left: 2em;
+}
+
+.dmly-rating-categories-list ul{
+	list-style: disc;
+	padding-left: 2em;
+	padding-top: 7px;
+}
+
+/* Helpers */
+
+.clearfix:before,.clearfix:after {content: " ";display: table;}
+.clearfix:after {clear: both;}
+
+.dmly-btn{
+	border: none;
+	display: inline-block;
+	padding: 10px 16px;
+	text-transform: uppercase;
+}
+
+.dmly-btn:hover{
+	cursor: pointer;
+}
+
+.dmly-btn--cta{
+	background-color: #e7674a; 
+	color: #f7f7f7;
+}
+.dmly-btn--cta:hover{
+	background-color: #b64c34;
+}
+
+
+/*
+ * 	Mobile
+ */
+
+@media only screen and (max-width: 600px){
+	.dmly-settings{
+		width: 100%;
+	}
+	.dmly-branding-container{
+		width: 100%;
+	}
+}

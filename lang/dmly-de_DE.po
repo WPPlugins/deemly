@@ -1,0 +1,128 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: deemly\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2016-09-23 08:56+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: deemly <jens@deemly.co>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/admin/admin-pages.php:48
+msgid "Your rating categories:"
+msgstr ""
+
+#: inc/admin/admin-pages.php:49
+msgid "The parameters users can rate each other on."
+msgstr ""
+
+#: inc/admin/admin-pages.php:71
+msgid "Update"
+msgstr ""
+
+#: inc/admin/register-settings.php:50
+msgid "deemly API settings"
+msgstr "deemly API Einstellungen"
+
+#: inc/admin/register-settings.php:57
+msgid "deemly site APP key"
+msgstr "deemly site APP key"
+
+#: inc/admin/register-settings.php:69
+msgid "deemly site secret key"
+msgstr "deemly site secret key"
+
+#: inc/admin/register-settings.php:98
+msgid ""
+"Please enter your deemly app settings. You can find your keys under the "
+"settings page on each site."
+msgstr ""
+"Bitte fügen Sie Ihre deemly App Einstellungen ein. Sie finden Ihre Schlüssel "
+"auf jeder Seite unter \"Einstellungen\"."
+
+#: inc/admin/register-user-settings.php:10
+#: inc/admin/register-user-settings.php:13
+msgid "deemly ID"
+msgstr "deemly ID"
+
+#: inc/dmly-widgets.php:39 inc/dmly-widgets.php:42 inc/dmly-widgets.php:92
+#: inc/dmly-widgets.php:95
+msgid "Verified by deemly"
+msgstr "Verifiziert von deemly"
+
+#: inc/dmly-widgets.php:101 inc/dmly-widgets.php:199
+msgid "See full profile"
+msgstr "Zeige gesamtes Profil"
+
+#: inc/dmly-widgets.php:154
+msgid "No ratings and reviews yet"
+msgstr "Noch keine Bewertungen und Berichte."
+
+#: inc/dmly-widgets.php:190 inc/dmly-widgets.php:193
+msgid "verified by deemly"
+msgstr ""
+
+#: inc/dmly-widgets.php:237
+msgid "All fields are required."
+msgstr "Alle Felder sind erforderlich."
+
+#: inc/dmly-widgets.php:244
+msgid "You must be logged in to post a review."
+msgstr "Du musst eingeloggt sein, um einen Bericht zu schreiben."
+
+#: inc/dmly-widgets.php:279
+msgid "Submit review"
+msgstr "Sende Bericht"
+
+#: inc/widgets/user-profile.php:13
+msgid "deemly user profile"
+msgstr "deemly Benutzerprofil"
+
+#: inc/widgets/user-profile.php:16
+msgid "This widget will display the users deemly profile"
+msgstr "Dieses widget zeigt das deemly Profil des Nutzers/der Nutzerin an"
+
+#: inc/widgets/user-rating-form.php:13
+msgid "deemly user rating form"
+msgstr "deemly Benutzerbewertungs-Formular"
+
+#: inc/widgets/user-rating-form.php:16
+msgid "This widget will display the form for submitting a rating and review"
+msgstr ""
+"Dieses widget zeigt das Formular für das Absenden von Bewertungen und Bericht"
+
+#: inc/widgets/user-rating-form.php:27
+msgid "Submit a review"
+msgstr "Sende Bericht"
+
+#: inc/widgets/user-ratings.php:13
+msgid "deemly user ratings"
+msgstr "deemly Benutzerbewertung "
+
+#: inc/widgets/user-ratings.php:16
+msgid "This widget will display the users ratings and reviews"
+msgstr ""
+"Dieses widget zeigt die Bewertungen und Berichte des Benutzers/der Benutzerin"
+
+#: inc/widgets/user-ratings.php:28
+msgid "Other users say"
+msgstr "Andere Nutzer/innen sagen"
+
+#, fuzzy
+#~ msgid "All fields are reqiuired."
+#~ msgstr "All fields are required."

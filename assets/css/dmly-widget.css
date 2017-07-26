@@ -1,0 +1,331 @@
+.deemly-container {
+	box-sizing:border-box !important; 
+  color: #333;
+	display: inline-block;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.4;
+	position: relative;
+	vertical-align: middle;
+}
+.deemly-container a{
+	color: #e7674a;
+	text-decoration: none;
+}
+.deemly-container:hover .deemly-user,
+.deemly-container .deemly-user {
+  display: block;
+}
+.deemly-container .deemly-logo {
+  display: inline-block;
+  height: 20px;
+  vertical-align: middle;
+  width: auto;
+}
+.deemly-container .deemly-score {
+  border: 2px solid #e7674a;
+  border-radius: 50%;
+  color: #e7674a;
+  display: inline-block;
+  height: 2em;
+  line-height: 1.9em;
+  text-align: center;
+  width: 2em;
+}
+.deemly-container .deemly-user {
+  background-color: #FFF;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.3);
+  color: #333;
+  display: none;
+  height: 180px;
+  left: -20px;
+  position: absolute;
+  text-align: center;
+  top: -180px;
+  width: 180px;
+}
+.deemly-container .deemly-user:after {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+}
+.deemly-container .deemly-user .deemly-user__image {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: auto;
+  margin-top: -50px;
+  position: relative;
+  width: 100px;
+}
+.deemly-container .deemly-user .deemly-user__name {
+  font-size: 24px;
+	font-weight: 300 !important;
+	line-height: 1em;
+ 	margin: 0 0 5px 0;
+}
+.deemly-container .deemly-user .deemly-user__link {
+  color: #e7674a;
+  display: block;
+  margin-bottom: .5em;
+}
+.deemly-container .deemly-user .deemly-user__link:hover {
+  text-decoration: underline;
+}
+.deemly-container .deemly-user .deemly-user__description {
+  font-size: .8rem;
+  margin: 0;
+}
+.deemly-container .deemly-user .deemly-show-about {
+  border: 1px solid #333;
+  border-radius: 50%;
+  color: #333;
+  display: block;
+  font-size: .8em;
+  height: 1em;
+  line-height: 1em;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  text-align: center;
+  width: 1em;
+}
+
+/*
+ * The large version
+ */
+
+.deemly-container--large{
+  background-color: #fff;
+  margin-bottom: 1em;
+  padding-bottom: 3em;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.deemly-container--large * {
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-weight: 300;
+  max-width: 100%;
+}
+
+.deemly-container--large_header{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 180px;
+}
+
+.widget .deemly-container--large_header{
+  height: 100px;
+}
+
+.deemly-container--large .deemly-user{
+  margin-top: -52px; /* Half of image height */
+}
+
+.deemly-container--large .deemly-user__image{
+  border: 4px solid #fff;
+  border-radius: 50%;
+  width: 150px;
+}
+
+.deemly-container--large .deemly-user__name{
+  font-size: 24px;
+  font-weight: 300 !important;
+  line-height: 1em;
+}
+
+.deemly-container--large .deemly-score{
+  border: 2px solid #e7674a;
+  border-radius: 50%;
+  color: #e7674a; 
+  display: inline-block;
+  font-size: 22px;
+  height: 2.2em;
+  letter-spacing: -1px;
+  line-height: 2.1em;
+  margin: 0 5px;
+  text-align: center;
+  width: 2.2em;
+}
+
+.deemly-container--large .deemly-user__link{
+  border-bottom: 1px dotted #e7674a;
+  box-shadow: none;
+  color: #e7674a;
+  text-decoration: none !important;
+}
+
+.deemly-container--large .deemly-user__link:hover{
+  border-bottom-style: solid;
+  text-decoration: none;
+}
+
+.deemly-container--large .deemly-user__description{
+  color: #aaa;
+  padding: 5px 0;
+}
+
+.dmly-widget-branding{
+  position: absolute;
+  bottom: 0;
+  right: 1rem;
+  width: 80px;
+}
+
+/*
+ * List of reviews
+ */
+.dmly-reviews-container{
+  max-height: 300px;
+  overflow: auto;
+}
+
+.dmly-reviews{
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.dmly-review{
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1em;
+  padding-bottom: .8em;
+}
+
+.deemly-rating-container__category-name,
+.deemly-rating-container__ratings{
+  display: inline-block;
+  width: 48%;
+}
+
+.deemly-rating-container__ratings{
+  text-align: right;
+}
+
+.dmly-review__text{
+  margin-bottom: 1em;
+}
+.dmly-review__date{
+  color: #888;
+  font-size: .8em;
+}
+
+.dmly-review__rater{}
+
+.dmly-review__rater img.avatar{
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+
+/*
+ * The rating wigdet
+ */
+
+.deemly-form-post-review{
+  margin-bottom: 1em;
+  max-width: 500px;
+}
+
+.deemly-rating{ 
+  border: none;
+  float: left;
+  margin-bottom: 10px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.deemly-form-post-review textarea{
+  margin-bottom: 1em;
+  resize: vertical;
+  width: 100%;
+}
+
+.deemly-rating > input { display: none; } 
+.deemly-rating > label:before { 
+  content: "★";
+  display: inline-block;
+  font-size: 1.25em;
+  line-height: 1em;
+  margin: 0;
+}
+
+.deemly-rating > label { 
+  color: #ddd; 
+  float: right; 
+}
+
+/*
+ * CSS Magic to Highlight Stars on Hover
+ */
+
+.deemly-rating > input:checked ~ label, /* show gold star when clicked */
+.deemly-rating:not(:checked) > label:hover, /* hover current star */
+.deemly-rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.deemly-rating > input:checked + label:hover, /* hover current star when changing rating */
+.deemly-rating > input:checked ~ label:hover,
+.deemly-rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.deemly-rating > input:checked ~ label:hover ~ label { color: #FFC53D;  } 
+
+
+/*
+ * Info boxes
+ */
+
+.deemly-info-box{
+  margin: 1em 0;
+  padding: 1em;
+  text-align: center;
+  width: 100%;
+}
+
+.deemly-info-box--error{
+  background-color: #f9f9f9;
+  border: 1px solid #C23434;
+  color: #C23434;
+}
+.deemly-info-box--success{
+    background-color: #f9f9f9;
+    border: 1px solid #3fc449;
+    color: #34c235;
+}
+
+
+/*
+ *  Overwrites for BuddyPress
+ */
+
+#buddypress div#item-header div#item-meta{
+  overflow: visible; 
+}
+
+#buddypress ul.item-list li .item,
+#buddypress ul.item-list li{
+  overflow: visible !important;
+}
+
+#buddypress ul.item-list li:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+#buddypress #activity-stream li .activity-content .deemly-container{
+  margin-bottom: 5px;
+}
+#buddypress #activity-stream li .activity-content .deemly-container:hover .deemly-user{
+  display: none;
+}
